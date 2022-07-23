@@ -9,7 +9,8 @@ Created on Sat Jul 16 19:16:58 2022
 from functions import Process_image, Calculate
 import numpy as np
 import streamlit as st
-from tensorflow.keras.models import load_model
+import keras
+from keras.models import load_model
 
 
 # dictionary for class labels
