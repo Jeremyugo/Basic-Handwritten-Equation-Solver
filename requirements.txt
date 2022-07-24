@@ -2,4 +2,3 @@ numpy
 streamlit
 tensorflow-cpu
 keras
-matplotlib
