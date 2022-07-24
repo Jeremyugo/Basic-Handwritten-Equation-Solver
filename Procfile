@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Equation_Solver.py --port=$PORT
+web: sh setup.sh && streamlit run Equation_Solver.py 
