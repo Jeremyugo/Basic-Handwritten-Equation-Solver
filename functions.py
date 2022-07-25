@@ -1,7 +1,7 @@
 """ Pytho Functions """
 
 import numpy as np
-import tensorflow as tf
+import tensorflow-cpu as tf
 import matplotlib.image as mpig
 
 def Process_image(file):
