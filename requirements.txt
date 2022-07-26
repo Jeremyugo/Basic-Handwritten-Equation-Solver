@@ -1,4 +1,5 @@
 numpy
 streamlit
-tensorflow-cpu
+opencv-python
 keras
+matplotlib
