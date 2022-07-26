@@ -1,1 +1,1 @@
-streamlit run Equation_Solver.py
+web: streamlit run Equation_Solver.py
