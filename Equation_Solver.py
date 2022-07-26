@@ -50,40 +50,40 @@ with st.expander("Disclaimer"):
              1. This model can only solve basic equations with not more than 2 math operators.
              2. A Sample of each symbol used in training the model can be found below, and handwritten equations should mirror these symbols to get the correct solution to the equation.
              """)
-    col1_a,col2_a,col3_a,col4_a,col5_a,col6_a,col7_a = st.columns(7)
-    col1_b,col2_b,col3_b,col4_b,col5_b,col6_b,col7_b = st.columns(7)
+#     col1_a,col2_a,col3_a,col4_a,col5_a,col6_a,col7_a = st.columns(7)
+#     col1_b,col2_b,col3_b,col4_b,col5_b,col6_b,col7_b = st.columns(7)
     
-    # first row
-    col1_a.image("./sample_images/0.jpg", caption="0",
-             width=80)
-    col2_a.image("./sample_images/1.jpg", caption="1",
-             width=80)
-    col3_a.image("./sample_images/2.jpg", caption="2",
-             width=80)
-    col4_a.image("./sample_images/3.jpg", caption="3",
-             width=80)
-    col5_a.image("./sample_images/4.jpg", caption="4",
-             width=80)
-    col6_a.image("./sample_images/5.jpg", caption="5",
-             width=80)
-    col7_a.image("./sample_images/6.jpg", caption="6",
-             width=80)
+#     # first row
+#     col1_a.image("./sample_images/0.jpg", caption="0",
+#              width=80)
+#     col2_a.image("./sample_images/1.jpg", caption="1",
+#              width=80)
+#     col3_a.image("./sample_images/2.jpg", caption="2",
+#              width=80)
+#     col4_a.image("./sample_images/3.jpg", caption="3",
+#              width=80)
+#     col5_a.image("./sample_images/4.jpg", caption="4",
+#              width=80)
+#     col6_a.image("./sample_images/5.jpg", caption="5",
+#              width=80)
+#     col7_a.image("./sample_images/6.jpg", caption="6",
+#              width=80)
     
-    # second row
-    col1_b.image("./sample_images/7.jpg", caption="7",
-             width=80)
-    col2_b.image("./sample_images/8.jpg", caption="8",
-             width=80)
-    col3_b.image("./sample_images/9.jpg", caption="9",
-             width=80)
-    col4_b.image("./sample_images/+.jpg", caption="+",
-             width=80)
-    col5_b.image("./sample_images/-.jpg", caption="-",
-             width=80)
-    col6_b.image("./sample_images/times.jpg", caption="times",
-             width=80)
-    col7_b.image("./sample_images/div.jpg", caption="div",
-             width=80)
+#     # second row
+#     col1_b.image("./sample_images/7.jpg", caption="7",
+#              width=80)
+#     col2_b.image("./sample_images/8.jpg", caption="8",
+#              width=80)
+#     col3_b.image("./sample_images/9.jpg", caption="9",
+#              width=80)
+#     col4_b.image("./sample_images/+.jpg", caption="+",
+#              width=80)
+#     col5_b.image("./sample_images/-.jpg", caption="-",
+#              width=80)
+#     col6_b.image("./sample_images/times.jpg", caption="times",
+#              width=80)
+#     col7_b.image("./sample_images/div.jpg", caption="div",
+#              width=80)
 
 #"=============================================================================="
     
