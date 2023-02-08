@@ -123,13 +123,13 @@ if options == "Upload Image":
             equation_list = []
             for array in pred:
                 equation_list.append(map_dict[array])
-             try:
+            try:
                 answer, equation = Calculate(equation_list)
                 if answer == None:
                     st.write("Please check your image and following the instructions")
                 else:
                     st.write(f"Handwritten Equation Solution: {equation}  =  {answer}")
-             except Exception as e:
+            except Exception as e:
                 st.write("Please check your image and following the instruction")
                     
                 
@@ -162,7 +162,7 @@ if options == "Use Camera":
                     st.write("Please check your image and following the instructions")
                 else:
                     st.write(f"Handwritten Equation Solution: {equation}  =  {answer}")
-             except Exception as e:
+            except Exception as e:
                 st.write("Please check your image and following the instruction")
             
     
