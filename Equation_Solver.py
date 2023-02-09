@@ -128,7 +128,7 @@ if file:
             if answer == None:
                 st.write("Please check your image and follow the instructions")
             else:
-                st.write(f"Handwritten Equation Solution: {equation}  =  {answer}")
+                st.write(f"Equation Solution: {equation}  =  {answer}")
         except Exception as e:
             st.write("Please check your image and follow the instruction")
                     
